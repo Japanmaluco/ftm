@@ -1,0 +1,19 @@
+{
+        "name": "FATNFT",
+        "symbol": "FAT",
+        "image": "0.png",
+        "properties": {
+          "files": [
+            {
+              "uri": "0.png",
+              "type": "image/png"
+            }
+          ],
+          "creators": [
+            {
+              "address": "EWPzjSMMzTUBMiNd5EqoXRtKa43pao13BpaT86WQo6mg",
+              "share": 100
+            }
+          ]
+        }
+      }
