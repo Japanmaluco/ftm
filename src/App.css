@@ -133,10 +133,16 @@ nav a:hover {
 
 .nav-social {
   width: 30px;
-
+  filter: #32feff!important;
   padding: 0 10px 0 10px;
 }
 
+.nav-social:grow {
+  transition: all .2s ease-in-out;
+}
+.nav-social:hover {
+    transform: scale(1.5);
+}
 .social-icons {
   display: flex;
 }
@@ -322,7 +328,9 @@ header {
   margin-bottom: 20px;
  }
 
-
+.fat{
+  color: #32feff;
+}
 
 .loading:after {
   content: " .";

@@ -4,6 +4,7 @@ import { Container, Snackbar } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Alert from "@material-ui/lab/Alert";
+import "./mintbutton.css"
 
 import * as anchor from "@project-serum/anchor";
 
@@ -41,7 +42,7 @@ const ConnectButton = styled(WalletDialogButton)`
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background: linear-gradient(180deg, #604ae5 0%, #813eee 100%);
+  background: linear-gradient(180deg,#32feff 0%,#105f5f 100%);
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -335,7 +336,7 @@ const Home = (props: HomeProps) => {
                   </Grid>
 
                   {!wallet.connected ? (
-                    <ConnectButton>Connect{""}</ConnectButton>
+                    <ConnectButton className="testt">Connect{""}</ConnectButton>
                   ) : (
                     <MintContainer>
                       {candyMachine?.state.isActive &&

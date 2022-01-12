@@ -1,0 +1,11 @@
+.mint-button-text{
+        color: rgba(255, 255, 255, 0.562);
+}
+
+.mint-button-text:hover{
+        color: white;
+}
+
+.mint-button{
+        background-color: linear-gradient(180deg,#32feff 0%,#105f5f 100%)
+}

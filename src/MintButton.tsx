@@ -7,6 +7,7 @@ import { GatewayStatus, useGateway } from '@civic/solana-gateway-react';
 import { useEffect, useState } from 'react';
 import { whitelistSettings, publicSaleSettings, mintPanic } from './userSettings';
 import { toDate }  from './utils'
+import "./mintbutton.css"
 
 
 export const CTAButton = styled(Button)`
