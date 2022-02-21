@@ -2,10 +2,10 @@
 
 ![The Boiler Plate](https://github.com/Japanmaluco/ftm/blob/master/The-Boiler-Plate.png)
 
-`git clone https://github.com/Japanmaluco/ftm`
-`cd ftm`
-`yarn install`
-`yarn start`
+* `git clone https://github.com/Japanmaluco/ftm`
+* `cd ftm`
+* `yarn install`
+* `yarn start`
 
 ## To deploy your nft collection, using candy machine v2 tutorial (https://docs.metaplex.com/candy-machine-v2/getting-started)
 `ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload \                            
