@@ -137,12 +137,6 @@ nav a:hover {
   padding: 0 10px 0 10px;
 }
 
-.nav-social:grow {
-  transition: all .2s ease-in-out;
-}
-.nav-social:hover {
-    transform: scale(1.5);
-}
 .social-icons {
   display: flex;
 }

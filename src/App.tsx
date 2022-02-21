@@ -81,7 +81,7 @@ const App = () => {
             </a>
           </li>
           <li>
-            <a href="/#link4" onClick={toggleMenu}>
+            <a href="https://twitter.com/ForMetaX" >
               Link 4
             </a>
           </li>
@@ -108,12 +108,12 @@ const App = () => {
           <a className="hide-800" href="/#link3">
             Link 3
           </a>
-          <a className="hide-800" href="/#link4">
+          <a className="hide-800" href="https://twitter.com/ForMetaX">
             Link 4
           </a>
           <div className="social-icons hide-800">
-            <img className="nav-social" src="/icons/twitter.svg" alt="" />
-            <img className="nav-social" src="/icons/discord.svg" alt="" />
+            <a href="https://twitter.com/ForMetaX" target="_blank"><img className="nav-social" src="/icons/twitter.svg" alt="" /></a>
+            <a href="https://discord.io/metax" target="_blank"><img className="nav-social" src="/icons/discord.svg" alt="" /></a>
           </div>
         </div>
       </nav>
@@ -121,7 +121,7 @@ const App = () => {
           <header className="card" id="link1">
             <div style={{ padding: "0 24px 0 24px 0" }}>
               <h3 className="text-secondary-color">Welcome To</h3>
-              <h1 className="pb-3 fat">Fatcoin</h1>
+              <h1 className="pb-3 fat">Space dog</h1>
               <p className="text-secondary-color">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 scelerisque ipsum non est porta mollis. Donec sapien sapien, dictum
